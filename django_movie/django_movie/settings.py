@@ -17,7 +17,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 SECRET_KEY = '+(-ne6m64#@6=fh#^lx(kmxnek8d812s(&ajj-y2nf)7cr8##y'
 DEBUG = True
-ALLOWED_HOSTS = ['0.0.0.0']
+ALLOWED_HOSTS = ['18.184.239.173']
+# ALLOWED_HOSTS = ['0.0.0.0']
 
 # SECRET_KEY = os.environ.get("SECRET_KEY")
 # DEBUG = bool(int(os.environ.get("GEBUG", default=1)))
