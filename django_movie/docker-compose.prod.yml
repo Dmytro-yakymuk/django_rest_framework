@@ -23,7 +23,7 @@ services:
       - ./.env.prod.db
   vue:
     build:
-      context: ../../vue-movie
+      context: ../vue-movie
       dockerfile: Dockerfile.prod
     volumes:
     - vue_dist:/app/dist
@@ -32,7 +32,7 @@ services:
   nginx:
     build: ./nginx
     ports:
-      - 1313:80
+      - 80:80
     volumes:
       - static_volume:/home/app/web/static
       - media_volume:/home/app/web/media
