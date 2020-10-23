@@ -108,8 +108,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
-STATIC_URL = '/staticfiles/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles/')
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 # STATIC_DIR = os.path.join(BASE_DIR, 'static')
 # STATICFILES_DIRS = [STATIC_DIR]
 
@@ -122,6 +122,9 @@ CORS_ORIGIN_WHITELIST = [
     "http://localhost:8080",
     "http://localhost:8081",
     "http://127.0.0.1:8000"
+    "http://localhost:1313",
+    "http://127.0.0.1:1313",
+    "http://18.184.239.173"
 ]
 
 
