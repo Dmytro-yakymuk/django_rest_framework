@@ -23,7 +23,7 @@ services:
       - ./.env.prod.db
   vue:
     build:
-      context: ../vue-movie
+      context: ../../django_vue
       dockerfile: Dockerfile.prod
     volumes:
     - vue_dist:/app/dist
